@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C1C0501957D1B600E47B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C1C04F1957D1B600E47B27 /* Foundation.framework */; };
+		18C1C0521957D1B600E47B27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C1C0511957D1B600E47B27 /* CoreGraphics.framework */; };
+		18C1C0541957D1B600E47B27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C1C0531957D1B600E47B27 /* UIKit.framework */; };
+		18C1C05A1957D1B600E47B27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C1C0581957D1B600E47B27 /* InfoPlist.strings */; };
+		18C1C05C1957D1B600E47B27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1C05B1957D1B600E47B27 /* main.m */; };
+		18C1C0601957D1B600E47B27 /* HelloVineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1C05F1957D1B600E47B27 /* HelloVineAppDelegate.m */; };
+		18C1C0631957D1B600E47B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C1C0611957D1B600E47B27 /* Main.storyboard */; };
+		18C1C0661957D1B600E47B27 /* HelloVineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1C0651957D1B600E47B27 /* HelloVineViewController.m */; };
+		18C1C0681957D1B600E47B27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C1C0671957D1B600E47B27 /* Images.xcassets */; };
+		18C1C06F1957D1B600E47B27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C1C06E1957D1B600E47B27 /* XCTest.framework */; };
+		18C1C0701957D1B600E47B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C1C04F1957D1B600E47B27 /* Foundation.framework */; };
+		18C1C0711957D1B600E47B27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C1C0531957D1B600E47B27 /* UIKit.framework */; };
+		18C1C0791957D1B600E47B27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C1C0771957D1B600E47B27 /* InfoPlist.strings */; };
+		18C1C07B1957D1B600E47B27 /* vineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1C07A1957D1B600E47B27 /* vineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C1C0721957D1B600E47B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C1C0441957D1B600E47B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C1C04B1957D1B600E47B27;
+			remoteInfo = vine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C1C04C1957D1B600E47B27 /* vine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C1C04F1957D1B600E47B27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18C1C0511957D1B600E47B27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18C1C0531957D1B600E47B27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18C1C0571957D1B600E47B27 /* vine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vine-Info.plist"; sourceTree = "<group>"; };
+		18C1C0591957D1B600E47B27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C1C05B1957D1B600E47B27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C1C05D1957D1B600E47B27 /* vine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vine-Prefix.pch"; sourceTree = "<group>"; };
+		18C1C05E1957D1B600E47B27 /* HelloVineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloVineAppDelegate.h; sourceTree = "<group>"; };
+		18C1C05F1957D1B600E47B27 /* HelloVineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloVineAppDelegate.m; sourceTree = "<group>"; };
+		18C1C0621957D1B600E47B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C1C0641957D1B600E47B27 /* HelloVineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloVineViewController.h; sourceTree = "<group>"; };
+		18C1C0651957D1B600E47B27 /* HelloVineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloVineViewController.m; sourceTree = "<group>"; };
+		18C1C0671957D1B600E47B27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18C1C06D1957D1B600E47B27 /* vineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C1C06E1957D1B600E47B27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18C1C0761957D1B600E47B27 /* vineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vineTests-Info.plist"; sourceTree = "<group>"; };
+		18C1C0781957D1B600E47B27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C1C07A1957D1B600E47B27 /* vineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C1C0491957D1B600E47B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C1C0521957D1B600E47B27 /* CoreGraphics.framework in Frameworks */,
+				18C1C0541957D1B600E47B27 /* UIKit.framework in Frameworks */,
+				18C1C0501957D1B600E47B27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C1C06A1957D1B600E47B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C1C06F1957D1B600E47B27 /* XCTest.framework in Frameworks */,
+				18C1C0711957D1B600E47B27 /* UIKit.framework in Frameworks */,
+				18C1C0701957D1B600E47B27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C1C0431957D1B600E47B27 = {
+			isa = PBXGroup;
+			children = (
+				18C1C0551957D1B600E47B27 /* vine */,
+				18C1C0741957D1B600E47B27 /* vineTests */,
+				18C1C04E1957D1B600E47B27 /* Frameworks */,
+				18C1C04D1957D1B600E47B27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C1C04D1957D1B600E47B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C1C04C1957D1B600E47B27 /* vine.app */,
+				18C1C06D1957D1B600E47B27 /* vineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C1C04E1957D1B600E47B27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C1C04F1957D1B600E47B27 /* Foundation.framework */,
+				18C1C0511957D1B600E47B27 /* CoreGraphics.framework */,
+				18C1C0531957D1B600E47B27 /* UIKit.framework */,
+				18C1C06E1957D1B600E47B27 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18C1C0551957D1B600E47B27 /* vine */ = {
+			isa = PBXGroup;
+			children = (
+				18C1C05E1957D1B600E47B27 /* HelloVineAppDelegate.h */,
+				18C1C05F1957D1B600E47B27 /* HelloVineAppDelegate.m */,
+				18C1C0611957D1B600E47B27 /* Main.storyboard */,
+				18C1C0641957D1B600E47B27 /* HelloVineViewController.h */,
+				18C1C0651957D1B600E47B27 /* HelloVineViewController.m */,
+				18C1C0671957D1B600E47B27 /* Images.xcassets */,
+				18C1C0561957D1B600E47B27 /* Supporting Files */,
+			);
+			path = vine;
+			sourceTree = "<group>";
+		};
+		18C1C0561957D1B600E47B27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C1C0571957D1B600E47B27 /* vine-Info.plist */,
+				18C1C0581957D1B600E47B27 /* InfoPlist.strings */,
+				18C1C05B1957D1B600E47B27 /* main.m */,
+				18C1C05D1957D1B600E47B27 /* vine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C1C0741957D1B600E47B27 /* vineTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C1C07A1957D1B600E47B27 /* vineTests.m */,
+				18C1C0751957D1B600E47B27 /* Supporting Files */,
+			);
+			path = vineTests;
+			sourceTree = "<group>";
+		};
+		18C1C0751957D1B600E47B27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C1C0761957D1B600E47B27 /* vineTests-Info.plist */,
+				18C1C0771957D1B600E47B27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C1C04B1957D1B600E47B27 /* vine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C1C07E1957D1B600E47B27 /* Build configuration list for PBXNativeTarget "vine" */;
+			buildPhases = (
+				18C1C0481957D1B600E47B27 /* Sources */,
+				18C1C0491957D1B600E47B27 /* Frameworks */,
+				18C1C04A1957D1B600E47B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vine;
+			productName = vine;
+			productReference = 18C1C04C1957D1B600E47B27 /* vine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C1C06C1957D1B600E47B27 /* vineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C1C0811957D1B600E47B27 /* Build configuration list for PBXNativeTarget "vineTests" */;
+			buildPhases = (
+				18C1C0691957D1B600E47B27 /* Sources */,
+				18C1C06A1957D1B600E47B27 /* Frameworks */,
+				18C1C06B1957D1B600E47B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C1C0731957D1B600E47B27 /* PBXTargetDependency */,
+			);
+			name = vineTests;
+			productName = vineTests;
+			productReference = 18C1C06D1957D1B600E47B27 /* vineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C1C0441957D1B600E47B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloVine;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rahmat Hidayat";
+				TargetAttributes = {
+					18C1C06C1957D1B600E47B27 = {
+						TestTargetID = 18C1C04B1957D1B600E47B27;
+					};
+				};
+			};
+			buildConfigurationList = 18C1C0471957D1B600E47B27 /* Build configuration list for PBXProject "vine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C1C0431957D1B600E47B27;
+			productRefGroup = 18C1C04D1957D1B600E47B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C1C04B1957D1B600E47B27 /* vine */,
+				18C1C06C1957D1B600E47B27 /* vineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C1C04A1957D1B600E47B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C1C0681957D1B600E47B27 /* Images.xcassets in Resources */,
+				18C1C05A1957D1B600E47B27 /* InfoPlist.strings in Resources */,
+				18C1C0631957D1B600E47B27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C1C06B1957D1B600E47B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C1C0791957D1B600E47B27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C1C0481957D1B600E47B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C1C0661957D1B600E47B27 /* HelloVineViewController.m in Sources */,
+				18C1C05C1957D1B600E47B27 /* main.m in Sources */,
+				18C1C0601957D1B600E47B27 /* HelloVineAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C1C0691957D1B600E47B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C1C07B1957D1B600E47B27 /* vineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C1C0731957D1B600E47B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C1C04B1957D1B600E47B27 /* vine */;
+			targetProxy = 18C1C0721957D1B600E47B27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C1C0581957D1B600E47B27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C1C0591957D1B600E47B27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18C1C0611957D1B600E47B27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C1C0621957D1B600E47B27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C1C0771957D1B600E47B27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C1C0781957D1B600E47B27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C1C07C1957D1B600E47B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C1C07D1957D1B600E47B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C1C07F1957D1B600E47B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vine/vine-Prefix.pch";
+				INFOPLIST_FILE = "vine/vine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18C1C0801957D1B600E47B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vine/vine-Prefix.pch";
+				INFOPLIST_FILE = "vine/vine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18C1C0821957D1B600E47B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vine.app/vine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vine/vine-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "vineTests/vineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18C1C0831957D1B600E47B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vine.app/vine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vine/vine-Prefix.pch";
+				INFOPLIST_FILE = "vineTests/vineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C1C0471957D1B600E47B27 /* Build configuration list for PBXProject "vine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C1C07C1957D1B600E47B27 /* Debug */,
+				18C1C07D1957D1B600E47B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C1C07E1957D1B600E47B27 /* Build configuration list for PBXNativeTarget "vine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C1C07F1957D1B600E47B27 /* Debug */,
+				18C1C0801957D1B600E47B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18C1C0811957D1B600E47B27 /* Build configuration list for PBXNativeTarget "vineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C1C0821957D1B600E47B27 /* Debug */,
+				18C1C0831957D1B600E47B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C1C0441957D1B600E47B27 /* Project object */;
+}
